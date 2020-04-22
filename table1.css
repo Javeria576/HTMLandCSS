@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+table
+{
+    border: 2px solid black;
+    align-items: center;
+    border-spacing: 5px;
+    width: 50%;
+    height:70px;
+    position: fixed;
+
+}
+th
+{
+    border: 1px solid gray;
+    align-items: center;
+    padding: 2px;
+}
+td
+{
+    border: 1px solid gray;
+    text-align: center;
+    padding: 2px;
+}
+tr :nth-child(even)
+{
+    background-color: thistle;
+}
+
+.main_container
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    padding:200px;
+    height:20%;
+    box-shadow: 25px 25px 40px rgb(216, 152, 173);
+
+}
+body
+{
+    background-color: rgb(175, 219, 236);
+}
